@@ -5,12 +5,12 @@
     "target": "ES2024", // modern javascript output (Node 22+ understands it)
     "module": "nodenext", // follow Node's own module rules
     "moduleResolution": "nodenext",
-    "rootDir": "/src", //where our Typescript lives
+    "rootDir": "./src", //where our Typescript lives
     "outDir": "./dist", // where the complied javascipt goes
     "types": ["node"],
     "strict": true, // catch as many mistakes as possible
     "esModuleInterop": true, // lets us write: import express from "express and others
-    "skipLibCheck": true
+    "skipLibCheck": true // dont type-check code inside node_modules
   },
   "include": ["src"]
 }
