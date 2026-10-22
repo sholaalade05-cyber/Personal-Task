@@ -37,8 +37,6 @@ const startServer = async () => {
 
 startServer();
 
-// aladefathia21_db_user
-// O5aqQHRGr2nhV7gs
-// mongodb+srv://aladefathia21_db_user:O5aqQHRGr2nhV7gs@cluster0.7kmathh.mongodb.net/
+
 
 // cors: cross origin rescource sharing
